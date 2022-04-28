@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Important
+`cd api`
+`python3 -m venv env`
+`pip3 install -r requirements.txt`
+`cd ..`
+`yarn start` will open localhost:3000
+`yarn start-api` will start flask api
