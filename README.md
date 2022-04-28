@@ -71,9 +71,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 # Important
+
+### setup python
 `cd api`
+
 `python3 -m venv env`
+
 `pip3 install -r requirements.txt`
+### Run UI and api in two shells
 `cd ..`
 `yarn start` will open localhost:3000
 `yarn start-api` will start flask api
